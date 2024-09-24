@@ -36,16 +36,15 @@ git clone [https://github.com/isaac-hobson/PyCryptic]
 cd pycryptic
 ```
 
-### 2. Encryption
+### 2. Combined Encryption/Decryption with `main.py`
 
-To encrypt a Python file or any other file:
+You can also use `main.py` to select whether you want to encrypt or decrypt a file through a simple prompt.
 
 ```bash
-python3 encrypt.py
+python3 main.py
 ```
 
-- You will be prompted to enter the path to the file you want to encrypt.
-- After processing, the encrypted base64-encoded content will be saved in a file of your choice.
+- Follow the on-screen instructions to choose whether you want to encrypt or decrypt a file.
 
 ### 3. Decryption
 
@@ -57,15 +56,16 @@ python3 decrypt.py
 
 - You will be prompted to enter the path of the encrypted file and an output file name for the decrypted content.
 
-### 4. Combined Encryption/Decryption with `main.py`
+### 4. Encryption
 
-You can also use `main.py` to select whether you want to encrypt or decrypt a file through a simple prompt.
+To encrypt a Python file or any other file:
 
 ```bash
-python3 main.py
+python3 encrypt.py
 ```
 
-- Follow the on-screen instructions to choose whether you want to encrypt or decrypt a file.
+- You will be prompted to enter the path to the file you want to encrypt.
+- After processing, the encrypted base64-encoded content will be saved in a file of your choice.
 
 ## Example Workflow
 
