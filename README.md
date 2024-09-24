@@ -38,7 +38,7 @@ cd pycryptic
 
 ### 2. Combined Encryption/Decryption with `main.py`
 
-You can also use `main.py` to select whether you want to encrypt or decrypt a file through a simple prompt.
+You can use `main.py` to select whether you want to encrypt or decrypt a file through a simple prompt.
 
 ```bash
 python3 main.py
